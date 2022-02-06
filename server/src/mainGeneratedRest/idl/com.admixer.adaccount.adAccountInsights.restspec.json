@@ -1,0 +1,17 @@
+{
+  "name" : "adAccountInsights",
+  "namespace" : "com.admixer.adaccount",
+  "path" : "/adAccountInsights",
+  "schema" : "com.admixer.adaccount.AdAccountInsight",
+  "doc" : "generated from: com.admixer.adaccount.impl.AdAccountInsightResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "adAccountInsightsId",
+      "type" : "long"
+    },
+    "supports" : [ ],
+    "entity" : {
+      "path" : "/adAccountInsights/{adAccountInsightsId}"
+    }
+  }
+}

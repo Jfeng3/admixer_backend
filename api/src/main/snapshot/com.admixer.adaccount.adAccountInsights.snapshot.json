@@ -1,0 +1,31 @@
+{
+  "models" : [ {
+    "type" : "record",
+    "name" : "AdAccountInsight",
+    "namespace" : "com.admixer.adaccount",
+    "fields" : [ {
+      "name" : "adAccountId",
+      "type" : "string"
+    }, {
+      "name" : "impressionCount",
+      "type" : "int"
+    } ]
+  } ],
+  "schema" : {
+    "name" : "adAccountInsights",
+    "namespace" : "com.admixer.adaccount",
+    "path" : "/adAccountInsights",
+    "schema" : "com.admixer.adaccount.AdAccountInsight",
+    "doc" : "generated from: com.admixer.adaccount.impl.AdAccountInsightResource",
+    "collection" : {
+      "identifier" : {
+        "name" : "adAccountInsightsId",
+        "type" : "long"
+      },
+      "supports" : [ ],
+      "entity" : {
+        "path" : "/adAccountInsights/{adAccountInsightsId}"
+      }
+    }
+  }
+}
