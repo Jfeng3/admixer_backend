@@ -3,3 +3,9 @@
 /gradlew
 /.gradle
 /.idea
+/api/build
+/server/build
+/client/build
+*.iml
+*.ipr
+*.iws
