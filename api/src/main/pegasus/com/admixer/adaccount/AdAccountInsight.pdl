@@ -1,6 +1,6 @@
 namespace com.admixer.adaccount
 
 record AdAccountInsight {
-  adAccountId: string
-  impressionCount: int
+  adAccountId: long
+  impressionCount: long
 }
