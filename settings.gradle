@@ -1,2 +1,9 @@
 rootProject.name = 'admixer_backend'
+include 'api'
+include 'server'
+include 'client'
+include 'src:main'
+findProject(':src:main')?.name = 'src/main'
+include 'server:src:main'
+findProject(':server:src:main')?.name = 'server_main'
 
