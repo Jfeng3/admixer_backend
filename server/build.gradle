@@ -8,9 +8,9 @@ dependencies {
     compile spec.product.pegasus.restliNettyStandalone
 }
 
-task startFortunesServer(type: JavaExec) {
+task startServer(type: JavaExec) {
     main = 'com.linkedin.restli.server.NettyStandaloneLauncher'
-    args = ['-port', '8080', '-packages', 'com.example.fortune.impl']
+    args = ['-port', '8080', '-packages', 'com.admixer.adaccount.impl']
     classpath = sourceSets.main.runtimeClasspath
     standardInput = System.in
 }
